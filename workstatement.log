@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  8 OCT 2012 22:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  8 OCT 2012 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -300,34 +300,33 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
  [2] [3] [4]
 (./workstatement.aux) ) 
 Here is how much of TeX's memory you used:
- 3976 strings out of 493488
- 57261 string characters out of 3141326
+ 3974 strings out of 493488
+ 57237 string characters out of 3141326
  108798 words of memory out of 3000000
- 7220 multiletter control sequences out of 15000+200000
- 13337 words of font info for 49 fonts, out of 3000000 for 9000
+ 7219 multiletter control sequences out of 15000+200000
+ 12991 words of font info for 48 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,15n,38p,868b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,15n,38p,931b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmtt12.pfb>
-Output written on workstatement.pdf (4 pages, 80079 bytes).
+s/cm/cmtt12.pfb>
+Output written on workstatement.pdf (4 pages, 65408 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 37 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
