@@ -1,0 +1,129 @@
+\documentclass[12pt,letterpaper]{article}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{pdfsync}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{bm}
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\theoremstyle{definition}
+\newtheorem{dfn}{Definition}
+
+\begin{document}
+
+% The numbers below controls the amount of space between the following sections
+\def\shiftdowna{0.32in}  % Adjust for balance
+\def\shiftdownb{0.22in}  % Adjust for balance
+
+% Set up the boiler plate at the top of the page
+
+\begin{center}
+\textbf{{\large Project Work Statement}}\\
+
+
+% SPONSOR
+\vspace \shiftdowna
+\underline {Sponsor}\\ 
+\vspace{5pt}
+\textbf{{\large Greenwoods Asset Management Ltd.}}\\
+
+
+% TITLE
+\vspace \shiftdowna
+\textbf{{\large Study on Statistical Arbitrage in Futures Market}}
+
+
+% STUDENTS
+\vspace{0.35in}
+\vspace \shiftdownb
+\underline {Participants} \\
+\vspace{5pt}
+\text{Shihong Li}, \texttt{sli50@jhu.edu}
+
+% SPONSORS
+\vspace \shiftdownb
+\underline {Supervisor}\\
+\vspace{5pt}
+Nam Lee, \texttt{nhlee@jhu.edu} \\
+
+
+% DATE
+\vspace \shiftdowna
+Date: \today
+
+\end{center}
+
+\vfill  
+%Fill page to force following note to bottom
+\footnoterule
+\noindent \small{Any apparent association of this work to Greenwoods Asset Management Ltd. is
+fictional one, and the sole purpose of this work is a class exercise.}
+
+\newpage
+
+\section{Background} 
+     \noindent First used in 1990s, statistical arbitrage is an investment process based on mathematical model, aiming at making profits by building up long and short positions for assets whose prices deviates from their theoretical values. The technique of statistical arbitrage is to identify statistical mispricing between assets of portfolio, to model the dynamics of this mispricing, to generate the statistical arbitrage strategy and to put it into practice.
+
+
+ \vspace{6pt}\noindent Stock index futures were launched in China on April 16, 2010. The strategy of statistical arbitrage depends on the securities market in which short selling exists. Being absent of short selling mechanism and stock index futures in Chinese securities market for a long time, statistical arbitrage cannot be realized all the time before. However, the startup of securities margin trading and the transaction of CSI300 futures after the year of 2010 provide a platform for statistical arbitrage. Arbitrage opportunities exist undoubtedly under such inefficient and imperfect market. From this point, research on application of statistical arbitrage to CSI300 futures is very important for Greenwoods Asset Management Ltd., which is a leading investment company specialized in hedge funds with offices in Shanghai and Hong Kong. 
+
+
+\section{Problem Statement}
+
+To discover arbitrage opportunities, it’s crucial to extract information from data of historic transactions and featured stock index prices. However, in its age, Chinese stock index futures appear to be unpredictable and random. We need to work out the hidden connection between past data and future trends and make predictions based on this. Also, it’s important and challenging to define criteria for arbitrage opportunity.
+
+\vspace{6pt}\noindent The sponsor currently has a limited capability to make investment decisions given past market information. And our task is to provide them with a reasonable algorithm to detect arbitrage opportunity and make profits from it.
+
+
+\section{Approach}
+\begin{itemize}
+    \item 	First, we specify categories of data we need to build our model with. As far as we are concerned, our target data should be historic closing prices of Chinese stock index futures, these are our exogenous variabls in our model. The endogenous variables will be further explained after the mathematical model has been set up.  
+    \item 	Second, time series models will be carefully chosen to study data relationship and predict future trends. Certain examination must be included to check applicability of time series models.
+    \item 	Third, criteria for enter a transaction will be set based on mathematical concerns and real market concerns.
+    \item   At last, real data will be used into the model and tested for validity.
+    
+\end{itemize}
+\section{Milestones}
+We have the following major deadlines:
+\begin{itemize}
+    \item Design project and work statement, Sep 28, 2012,
+    \item Select and collect data, Oct 5, 2012,
+    \item Build mathematical model and prepare for midterm presentation, Oct 12, 2012,
+    \item Exam data validity, carry empirical test, and modify model if needed, Oct 26, 2012,
+    \item Test model with up-to-date data and prepare for final presentation, Nov 3, 2012,
+    \item Write final report and present results to the sponsor, Nov 30, 2012.
+\end{itemize}
+
+\section{Deliverable}
+\subsection{From Team to Sponsor} % (fold)
+The following outputs are expected from this project:
+\begin{itemize}
+    \item The future spread of two adjacent contracts of stock index futures can be predicted, 
+    \item Statistical arbitrage is proven to be accessible in Chinese stock index futures market,
+    \item Criteria for entering transactions and seize arbitrage opportunities can be determined,
+    \item	R package with a complete set of documentations along with some test codes that can be used for data analysis, prediction, and test,
+    \item Technical report and presentations summarizing the work.
+\end{itemize}
+
+\subsection{From Sponsor to Team} % (fold)
+
+In order for our project to be of successful one, we will need:
+\begin{itemize}
+    \item Historic transaction data,
+    \item Computing resources,
+    \item Timely responses to inquiries.
+\end{itemize}
+
+
+%\newpage
+%\bibliographystyle{plain}
+%%\renewcommand\bibname{Selected Bibliography Including Cited Works}
+%\nocite{*}
+%\bibliography{biblio}
+
+\end{document}
