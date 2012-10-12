@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  12 OCT 2012 12:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  12 OCT 2012 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -190,7 +190,14 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \c@dfn=\count102
 
-(./workstatement.aux)
+(./workstatement.aux
+
+Package natbib Warning: Citation `' multiply defined.
+
+
+Package natbib Warning: Citation `' multiply defined.
+
+)
 \openout1 = `workstatement.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -222,8 +229,7 @@ Configuring pdfsync
 **** pdfsync.sty: started
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-
-(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
 \scratchdimen=\dimen120
@@ -309,8 +315,11 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
- [2] [3] [4]
-(./workstatement.aux
+ [2] [3]
+
+Package natbib Warning: There were multiply defined citations.
+
+[4] (./workstatement.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -319,7 +328,7 @@ Package natbib Warning: Citation(s) may have changed.
 Here is how much of TeX's memory you used:
  3982 strings out of 493488
  57313 string characters out of 3141326
- 108816 words of memory out of 3000000
+ 108881 words of memory out of 3000000
  7224 multiletter control sequences out of 15000+200000
  13645 words of font info for 50 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -331,7 +340,7 @@ b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on workstatement.pdf (4 pages, 90719 bytes).
+Output written on workstatement.pdf (4 pages, 91032 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
